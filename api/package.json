@@ -1,15 +1,16 @@
 {
-  "name": "ethdev-boilerstrap",
+  "name": "ethdenver_2020",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install && cd api && npm install && cd ../blockchain && npm install && cd ../browser && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.1",
+    "ts-node": "^8.6.2"
   }
 }
